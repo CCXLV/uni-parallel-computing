@@ -23,15 +23,31 @@ Process ID: 120089
 
 ### Task 3
 
-Command - `python src/week_2/task_2.py`
+Command - `python src/week_2/task_3.py`
 
 Output:
 
 ```
-Process ID: 120086
-Process ID: 120087
-Process ID: 120088
-Process ID: 120089
+Iteration  0 was done by PID: 126741
+Iteration  2 was done by PID: 126740
+Iteration  4 was done by PID: 126742
+Iteration  6 was done by PID: 126743
+Iteration  1 was done by PID: 126741
+Iteration  3 was done by PID: 126740
+Iteration  5 was done by PID: 126742
+Iteration  7 was done by PID: 126743
+Iteration  8 was done by PID: 126741
+Iteration 10 was done by PID: 126740
+Iteration 12 was done by PID: 126742
+Iteration 14 was done by PID: 126743
+Iteration  9 was done by PID: 126741
+Iteration 11 was done by PID: 126740
+Iteration 13 was done by PID: 126742
+Iteration 15 was done by PID: 126743
+Iteration 16 was done by PID: 126741
+Iteration 18 was done by PID: 126740
+Iteration 17 was done by PID: 126741
+Iteration 19 was done by PID: 126740
 ```
 
 ### Task 4-5

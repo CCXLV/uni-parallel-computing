@@ -1,8 +1,12 @@
 from multiprocessing import Pool
 import os
+import time
 
 
 def loop_body(i):
+    # თუ დიაპაზონი მცირე ზომისაა Python ხშირად ერთ პროცესზე უშვებს იტერაციას,
+    # time.sleep ის გამოყენებით კი იძულებული ხდება სხვა პროცესებიც გამოიყენოს
+    time.sleep(0.1)
     # ვაჩვენებთ თუ რომელმა PID-მა შეასრულა კონკრეტული იტერაცია
     print(f"Iteration {i:2} was done by PID: {os.getpid()}")
 
